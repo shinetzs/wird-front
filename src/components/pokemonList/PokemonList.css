@@ -1,0 +1,23 @@
+.container {
+  background-color: #f0f0f0;
+  padding: 40px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar {
+  width: 533px;
+  height: 83px;
+  background-color: #d0d0d0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.card-container {
+  max-height: 70vh;
+  overflow-y: auto;
+}

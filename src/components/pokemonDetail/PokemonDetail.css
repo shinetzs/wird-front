@@ -1,0 +1,48 @@
+.container {
+  padding: 40px 50px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /
+}
+
+.pokemon-img {
+  width: 350px;
+  height: auto;
+  object-fit: contain;
+}
+.return{
+  cursor: pointer;
+}
+.arrow-icon {
+  height: 10px;
+}
+  
+.add-remove-button {
+  background-color: white;
+  border: 1px solid black;  
+  padding: 5px 10px;       
+  cursor: pointer;         
+  border-radius: 7px;      
+  transition: background-color 0.3s;
+}
+
+.add-remove-button:hover {
+  background-color: #f0f0f0;
+}
+
+.details{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+}
+
+.details p{
+  margin: 0;
+}
+.details ul{
+  margin: 0;
+}
