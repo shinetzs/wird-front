@@ -12,7 +12,7 @@ Este proyecto es una aplicación web que lista los Pokémones utilizando la [Pok
 
 Antes de ejecutar la aplicación, asegúrate de tener lo siguiente instalado:
 
-- **Node.js** (versión 14 o superior)
+- **Node.js** (versión 20 o superior)
 - **npm** (gestor de paquetes de Node.js)
 
 ## Instalación
