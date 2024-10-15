@@ -1,4 +1,4 @@
-.component-two {
+.selected-pokemon-list-container {
   background-color: #d0d0d0;
   padding: 20px;
   display: flex;
@@ -14,7 +14,7 @@
   padding: 16px;
   width: 100%;
   max-width: 100%;
-  box-sizing: border-box;
+  justify-items: center;
 }
 
 .empty-list-message {

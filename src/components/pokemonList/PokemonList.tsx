@@ -27,7 +27,7 @@ const PokemonList: React.FC = () => {
   };
 
   return (
-    <div className="container">
+    <div className="pokemon-list-container">
       <input
         type="text"
         className="search-bar"

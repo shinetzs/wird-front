@@ -15,7 +15,7 @@ const SelectedPokemonList: React.FC = () => {
   };
 
   return (
-    <div className="component-two">
+    <div className="selected-pokemon-list-container">
       <h1>Listos para el combate</h1>
       {selectedPokemons.length === 0 ? (
         <div className="empty-list-message">
