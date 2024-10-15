@@ -1,0 +1,42 @@
+.card {
+  width: 150px;
+  height: 183px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-image {
+  cursor: pointer;
+  width: 150px;
+  height: 150px;
+  background-color: #d0d0d0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-image.selected {
+  background-color: gray;
+}
+
+.card-image.not-selected {
+  background-color: #d0d0d0;
+}
+
+.icon-button {
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  font-size: 16px;
+  color: #ff0000;
+}
+
+.card-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 14px;
+}
